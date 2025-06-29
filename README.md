@@ -4,7 +4,7 @@ A simple ETL project that extracts COVID-19 data from [Our World in Data](https:
 
 ## Features of the project
 - Extracts data using HTTP requests
-- Selects key metrics and filters for a specific country (Denmark)
+- Selects key features and filters for a specific country (Denmark)
 - Saves the processed data to a sqlite3 .db file
 
 
