@@ -9,7 +9,11 @@ A simple ETL project that extracts COVID-19 data from [Our World in Data](https:
 
 
 ## Running the project
-To run the code first navigate to the project folder. Make sure all prerequisites are installed. Then simply run the following command in the terminal
+To run the code first navigate to the project folder. Make sure all requirements are installed. Check the requirements.txt file, or simply run the command
+```bash
+pip install -r requirements.txt
+```
 
+After the requirements are installed, simply run the following command in the terminal
 ```bash
 python main.py
