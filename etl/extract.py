@@ -3,6 +3,8 @@ import pandas as pd
 from io import StringIO
 
 def fetch_covid_data():
+    print("Fetching data ...")
+
     url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
     response = requests.get(url)
     if response.status_code != 200:
@@ -10,4 +12,6 @@ def fetch_covid_data():
     
     data = StringIO(response.text)
     df = pd.read_csv(data)
+
+    print("Data fetched \n")
     return df
